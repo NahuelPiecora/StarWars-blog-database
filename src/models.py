@@ -7,6 +7,7 @@ from sqlalchemy import create_engine
 from eralchemy import render_er
 
 Base = declarative_base()
+
 class User(Base):
     __tablename__ = "user"
     id = Column(Integer, primary_key=True)
